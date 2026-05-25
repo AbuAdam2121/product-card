@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  /*background-color:#F7F7FA;*/
+}
+
+.product-title {
+  color: #515076;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+}
+
+.product-card {
+  background-color:#F7F7FA;
+  width: 340px;
+  padding: 25px;
+  margin-bottom: 45px;
+  list-style: none;
+}
+
+.product-start {
+  color: #A5A3B9;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+}
+
+.product-name {
+  color: #515076;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.product-description {
+  color: #515076;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+  
+
+
+.product-ingredients { 
+  color:#515076;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+ul li {
+  color: #515076;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.product-price {
+  color: #515076;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+.product-pricename {
+  color: #515076;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
