@@ -16,7 +16,7 @@ body {
 }
 
 .product-card {
-  background-color:#F7F7FA;
+  background-color: #F7F7FA;
   width: 340px;
   padding: 25px;
   margin-bottom: 45px;
@@ -45,11 +45,11 @@ body {
   line-height: 18px;
   letter-spacing: 0%;
 }
-  
 
 
-.product-ingredients { 
-  color:#515076;
+
+.product-ingredients {
+  color: #515076;
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
