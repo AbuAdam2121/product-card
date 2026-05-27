@@ -4,11 +4,10 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  /*background-color:#F7F7FA;*/
+  color: #515076;
 }
 
 .product-title {
-  color: #515076;
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
@@ -32,38 +31,31 @@ body {
 }
 
 .product-name {
-  color: #515076;
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
 }
 
 .product-description {
-  color: #515076;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0%;
 }
 
-
-
 .product-ingredients {
-  color: #515076;
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
 }
 
-ul li {
-  color: #515076;
+.product-name-ingredients {
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
 }
 
 .product-price {
-  color: #515076;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -71,7 +63,6 @@ ul li {
 }
 
 .product-pricename {
-  color: #515076;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
