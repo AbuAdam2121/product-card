@@ -9,7 +9,6 @@ body {
 
 .product-title {
   font-size: 70px;
-  font-weight: 400;
   line-height: 78px;
   text-align: center;
 }
@@ -22,50 +21,56 @@ body {
   list-style: none;
 }
 
+.product-change {
+  padding-left: 15px;
+}
+
 .product-start {
   color: #A5A3B9;
   font-size: 12px;
-  font-weight: 400;
   line-height: 24px;
   display: block;
+  margin-bottom: 10px;
 }
 
 .product-name {
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
+  margin-bottom: 14px;
 }
 
 .product-description {
   font-size: 13px;
-  font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0%;
+  margin-bottom: 20px;
 }
 
 .product-ingredients {
   font-size: 13px;
   line-height: 18px;
-  font-weight: 400;
+  display: block;
+  margin-bottom: 6px;
 }
 
-.product-name-ingredients {
+.product-name-ing {
   font-size: 13px;
   line-height: 18px;
-  font-weight: 400;
+  margin-bottom: 4px;
 }
 
 .product-price {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 700;
-  letter-spacing: 0%;
+  display: block;
+  margin-top: 15px;
 }
 
 .product-pricename {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 700;
+  display: block;
+  margin-top: 15px;
 }
 
 .price-row {
