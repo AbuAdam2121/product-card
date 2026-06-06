@@ -1,10 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   color: #515076;
+  background-image: url(Images/brandi-redd-aJTiW00qqtI-unsplash.jpg);
 }
 
 .product-title {
@@ -14,12 +17,27 @@ body {
   font-weight: 400;
 }
 
+.ul {
+  width: 1110px;
+  margin: 45px auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
 .product-card {
   background-color: #F7F7FA;
   width: 340px;
   padding: 25px;
-  margin-bottom: 45px;
   list-style: none;
+  border-radius: 8px;
+  background-color: rgba(247, 247, 250, 0.95);
+}
+
+.product-card img {
+  border-radius: 8px;
 }
 
 .product-change {
