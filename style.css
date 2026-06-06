@@ -7,7 +7,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #515076;
-  background-image: url(Images/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+  background-image: url(Images/background.png);
 }
 
 .product-title {
@@ -15,9 +15,10 @@ body {
   line-height: 78px;
   text-align: center;
   font-weight: 400;
+  padding-top: 40px;
 }
 
-.ul {
+.cards {
   width: 1110px;
   margin: 45px auto;
   padding: 0;
@@ -33,7 +34,6 @@ body {
   padding: 25px;
   list-style: none;
   border-radius: 8px;
-  background-color: rgba(247, 247, 250, 0.95);
 }
 
 .product-card img {
