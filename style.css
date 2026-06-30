@@ -30,7 +30,7 @@ body {
   padding: 0;
 }
 
-.products-list {
+.products {
   width: 1110px;
   margin: auto auto 115px;
   display: flex;
@@ -44,13 +44,6 @@ body {
   padding: 25px;
   width: 100%;
 }
-
-/*.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 45px;
-}*/
 
 .card__image {
   display: block;
@@ -75,44 +68,33 @@ body {
   margin-bottom: 15px;
 }
 
-.catalog__name {
-  /*font-size: 13px;
-  line-height: 18px;
-  font-weight: 400;*/
+.compound__name {
   display: block;
   margin-bottom: 5px;
 }
 
-.catalog__ingredients {
+.compound__ingredients {
   font-size: 13px;
   line-height: 18px;
-  /*font-weight: 400;*/
   margin: 0;
   margin-bottom: 5px;
   padding-left: 15px;
 }
 
-.catalog__ing {
-  /*font-size: 13px;
-  line-height: 18px;*/
+.compound__ing {
   margin-bottom: 5px;
 }
 
 .card__description {
-  /*font-size: 13px;
-  line-height: 18px;
-  font-weight: 400;*/
   margin: 0;
   margin-bottom: 15px;
 }
 
 .card__price {
-  /*display: block;*/
   display: flex;
   justify-content: space-between;
   font-size: 20px;
   line-height: 24px;
-  /*font-weight: 400;*/
   margin-top: 20px;
 }
 
