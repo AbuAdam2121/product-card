@@ -1,98 +1,103 @@
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(Images/background.png);
+  background-repeat: no-repeat;
+  background-position: left up;
+  color: #515076;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+}
+
+.main__title {
+  margin: 220px 217px;
+  margin-bottom: 110px;
+}
+
+.clear-list {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  color: #515076;
-  background-image: url(Images/background.png);
-}
-
-.product-title {
-  font-size: 70px;
-  line-height: 78px;
-  text-align: center;
-  font-weight: 400;
-  padding-top: 40px;
-}
-
-.cards {
+.products {
   width: 1110px;
-  margin: 45px auto;
-  padding: 0;
+  margin: auto auto 115px;
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
   justify-content: center;
 }
 
-.product-card {
+.card {
   background-color: #F7F7FA;
-  width: 340px;
   padding: 25px;
-  list-style: none;
-  border-radius: 8px;
+  width: 100%;
 }
 
-.product-card img {
-  border-radius: 8px;
+.card__image {
+  display: block;
+  margin-bottom: 30px;
 }
 
-.product-change {
+.card__category {
+  display: block;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #A5A3B9;
+}
+
+.card__name {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.compound__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.compound__ingredients {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 5px;
   padding-left: 15px;
 }
 
-.product-start {
-  color: #A5A3B9;
-  font-size: 12px;
-  line-height: 24px;
-  display: block;
-  margin-top: 15px;
+.compound__ing {
+  margin-bottom: 5px;
+}
+
+.card__description {
+  margin: 0;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 
-.product-name {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 27px;
-  margin-bottom: 14px;
-}
-
-.product-description {
-  font-size: 13px;
-  line-height: 18px;
-  margin-bottom: 20px;
-}
-
-.product-ing {
-  font-size: 13px;
-  line-height: 18px;
-  display: block;
-  margin-bottom: 6px;
-}
-
-.product-name-ing {
-  font-size: 13px;
-  line-height: 18px;
-  margin-bottom: 4px;
-}
-
-.product-price {
-  display: block;
-}
-
-.product-pricename {
-  display: block;
-}
-
-.price-row {
+.card__price {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-size: 20px;
   line-height: 24px;
-  margin-top: 15px;
+  margin-top: 20px;
+}
+
+.products__item {
+  width: 340px;
 }
